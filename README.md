@@ -14,4 +14,4 @@ To start a single node Kafka server one can use the following command:
 
 ### Inspiration
 This project was inspired from koobar application demo on kafka by [@James Ward](https://github.com/jamesward).<br />
-* Youtube: [Introduction to Apache Kafka by James Ward](https://www.youtube.com/watch?v=UEg40Te8pnE&t=891s)
+* [Introduction to Apache Kafka by James Ward](https://www.youtube.com/watch?v=UEg40Te8pnE&t=891s)
