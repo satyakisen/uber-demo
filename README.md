@@ -9,7 +9,8 @@ A kafka project that demonstrates the uber application in web
 This repo contains scala code for starting a single node kafka server.
 To start a single node Kafka server one can use the following command:
 ```bash
-./sbt kafka-server/run
+cd kafka-server
+sbt run
 ```
 
 ### Inspiration
