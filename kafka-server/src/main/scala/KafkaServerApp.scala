@@ -55,6 +55,8 @@ object KafkaServerApp extends App{
   kafkaProperties.setProperty("zookeeper.connect", "localhost:" + prop.getProperty("zookeeper.client.port", "2181"))
   kafkaProperties.setProperty("broker.id", "1")
   kafkaProperties.setProperty("log.dirs", kfLogDir.toString)
+  kafkaProperties.setProperty("offsets.topic.num.partitions", "1")
+  kafkaProperties.setProperty("offsets.topic.replication.factor", "1")
 
   val kafkaConfig = KafkaConfig.fromProps(kafkaProperties)
   val kafka = new KafkaServer(kafkaConfig)
