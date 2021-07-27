@@ -13,6 +13,18 @@ cd kafka-server
 sbt run
 ```
 
+### 2. uber-web-app
+This repo contains the uber web application written using Playframework.
+To start the uber web application, one first start a kafka server and then run the following command:
+```bash
+cd uber-web-app
+sbt run
+```
+After running the uber-web-app, one can go to the following url and play with the application:
+http://localhost:9000/driver
+http://localhost:9000/rider
+
+
 ### Inspiration
 This project was inspired from koobar application demo on kafka by [@James Ward](https://github.com/jamesward). <br />
 * [Introduction to Apache Kafka by James Ward](https://www.youtube.com/watch?v=UEg40Te8pnE&t=891s)
