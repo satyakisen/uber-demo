@@ -20,8 +20,8 @@ To start the uber web application, one first start a kafka server and then run t
 cd uber-web-app
 sbt run
 ```
-After running the uber-web-app, one can go to the following url and play with the application:
-http://localhost:9000/driver
+After running the uber-web-app, one can go to the following url and play with the application: <br />
+http://localhost:9000/driver <br />
 http://localhost:9000/rider
 
 
